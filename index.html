@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SUMIRE SECRET MESSAGE</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      background:
+        radial-gradient(circle at top, #ffd9e8 0%, #fff3f8 38%, #ffffff 75%);
+      color: #3f3340;
+      display: flex;
+      justify-content: center;
+      padding: 32px 18px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 430px;
+      background: rgba(255,255,255,0.92);
+      border-radius: 28px;
+      padding: 34px 24px;
+      box-shadow: 0 18px 50px rgba(199, 99, 142, 0.18);
+      text-align: center;
+      border: 1px solid #f6d9e6;
+    }
+
+    .small {
+      font-size: 12px;
+      letter-spacing: 0.18em;
+      color: #c06d91;
+      margin-bottom: 8px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #d75f93;
+      line-height: 1.2;
+    }
+
+    .heart {
+      font-size: 34px;
+      margin: 18px 0 10px;
+    }
+
+    .message {
+      font-size: 15px;
+      line-height: 1.8;
+      margin: 18px 0 26px;
+    }
+
+    .voice-box {
+      background: #fff6fa;
+      border-radius: 22px;
+      padding: 22px 16px;
+      margin-bottom: 26px;
+      border: 1px solid #f4ccde;
+    }
+
+    .voice-title {
+      font-weight: bold;
+      color: #c44f83;
+      margin-bottom: 14px;
+    }
+
+    audio {
+      width: 100%;
+    }
+
+    .button {
+      display: block;
+      text-decoration: none;
+      background: linear-gradient(135deg, #ef79aa, #d85d91);
+      color: white;
+      font-weight: bold;
+      padding: 16px 20px;
+      border-radius: 999px;
+      margin-top: 20px;
+      box-shadow: 0 8px 18px rgba(216, 93, 145, 0.25);
+    }
+
+    .note {
+      margin-top: 26px;
+      font-size: 11px;
+      color: #a58f99;
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 28px;
+      font-size: 12px;
+      color: #c792aa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="card">
+
+    <div class="small">SPECIAL CHARM OWNER ONLY</div>
+
+    <h1>SUMIRE<br>SECRET MESSAGE</h1>
+
+    <div class="heart">💗</div>
+
+    <div class="message">
+      このチャームをGETしてくれてありがとう♡<br>
+      ここまで来てくれたあなたへ<br>
+      すみれから限定メッセージです🎧
+    </div>
+
+    <div class="voice-box">
+
+      <div class="voice-title">
+        🎧 すみれの限定ボイス
+      </div>
+
+      <audio controls controlsList="nodownload">
+        <source src="voice.mp3" type="audio/mpeg">
+        お使いのブラウザでは音声を再生できません。
+      </audio>
+
+    </div>
+
+    <a class="button"
+       href="ここにlit.linkのURLを入れる"
+       target="_blank">
+      💕 すみれをもっと見る
+    </a>
+
+    <div class="note">
+      このページはアクリルチャームから<br>
+      アクセスしてくれた方のための限定ページです♡
+    </div>
+
+    <footer>
+      HOSHIMIYA SUMIRE
+    </footer>
+
+  </main>
+
+</body>
+</html>
